@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvAgitar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="@string/agita_el_celular"
+        android:textSize="25sp" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/ivMano"
+        android:layout_width="100dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        app:srcCompat="@raw/shakecell" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/ivCrystallBall"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        app:srcCompat="@drawable/crystal_ball" />
+
+    <TextView
+        android:id="@+id/tvRespuesta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="30dp"
+        tools:text = "NO"
+        android:textSize="40dp" />
+
+</LinearLayout>
