@@ -42,4 +42,20 @@
         tools:text = "NO"
         android:textSize="40dp" />
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <ImageView
+            android:id="@+id/ivLogo"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:src="@drawable/jadg1308"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="30dp"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
 </LinearLayout>
